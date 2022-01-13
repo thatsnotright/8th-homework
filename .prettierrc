@@ -1,0 +1,9 @@
+{
+  "importOrderSortSpecifiers": true,
+  "importOrderSeparation": true,
+  "printWidth": 128,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}
