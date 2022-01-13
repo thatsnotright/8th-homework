@@ -13,12 +13,14 @@ by the process from step one).`, () => {
   [9153, "UX"]]
   your code should return:
   ["security", "data engineering"]`, () => {
-    const ids = ["7-623", "8235", "8-235"]
-    const specialties = [[1381, "front-end web development"],
-    [8235, "data engineering"],
-    [3434, "API design"],
-    [7623, "security"],
-    [9153, "UX"]]
+    const ids = ['7-623', '8235', '8-235']
+    const specialties: [number, string][] = [
+      [1381, 'front-end web development'],
+      [8235, 'data engineering'],
+      [3434, 'API design'],
+      [7623, 'security'],
+      [9153, 'UX'],
+    ]
     expect(getSpecialties(ids, specialties)).toEqual(['security', 'data engineering'])
   })
 })
